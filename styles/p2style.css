@@ -1,0 +1,40 @@
+h1{
+    color:red;
+}
+p, li{
+    color:green;
+}
+li{
+    list-style-type:upper-roman;
+}
+.especial{
+    color:chocolate;
+    font-weight: bold;
+}
+li.especial{
+    color:blue;
+    font-weight:lighter;
+}
+li em{
+    color: rebeccapurple;
+}
+h1 + p{
+    font-size: 200%;
+}
+p span{
+    color:red;
+}
+a:link{
+    color:pink;
+}
+a:visited{
+    color:green;
+}
+a:hover{
+    color:black;
+}
+body h1+p .especial{
+    color:yellow;
+    background-color:black;
+    padding:5px;
+}
