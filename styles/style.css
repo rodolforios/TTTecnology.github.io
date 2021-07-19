@@ -1,71 +1,62 @@
-html, body{
+ 
+
+
+body{
     background-color:rgb(224, 227, 222);
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    color: black;
+    margin: 0px auto;
+    padding: 10px;    
     font-family: 'Uchen', serif;
     line-height: 20px;
 }
 header{
     background-color: #75885b;
-    color:white;
-    width:100%;
-    margin-bottom: 10px;
+    color:white;    
+    text-align: center;
+    padding: 10px 0;
 }
-h1{
-    line-height: 40px;
+main{
+    width: 800px;
+    margin: 30px auto;
 }
-h1, h5, h4{
-    margin:0px;
-    padding:0px;
+#linhaDoTempo{
+    text-align: center;
+    margin:50px 0;
+    
 }
+
+
 img{
     border-radius: 100%;
     border: 2px dotted black;
 }
-#inicio{
-    margin: 10px;
-    padding: 5px 5px 0px 5px;
-}
-#inicio > div {
+
+.caixa {
     display: inline-block;
-    float: inline-start;
+    margin:10px 0;
     padding: 10px;
     margin-right: 10px;
     border: 1px solid #969494;
     border-radius:10px;
 }
-#filmes{
-    border: 1px solid #969494;
-    border-radius:10px;
-    float: inline-start;
-    display: inline;
-    margin: 5px;
-    padding: 5px;
-}
-#marcos{
-    display: inline;
-    float:inline-end;
-    border: 1px solid #969494;
-    border-radius:10px;
-    vertical-align: top;
-    margin-left:7px;
-}
+
+
 td,th{
     border-bottom:1px solid #c5c4ca;
     border-right:1px solid #c5c4ca;
 }
-#tabelas{
-    padding: 0px 5px;
-    margin:0;
+
+p,cite{
+    word-spacing: 2px;
+    margin-bottom: 35px;
+    
+    
 }
-#tabelas > div{
-    display: inline;
+
+footer{
+    margin:50px auto;
+    font-size:30px;
+    text-align: center;
 }
-cite::before{
-    content:open-quote;
-}
-cite:after{
-    content:close-quote;
-}
+
+
+
